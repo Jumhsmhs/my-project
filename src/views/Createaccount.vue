@@ -1,7 +1,7 @@
 <template>
 
   <div class="createaccount">
-    <h1>SIGN IN</h1>
+    <h1>SIGN UP</h1>
       <div class="mb-3">
        <label for="exampleFormControlInput1" class="form-label">Username</label>
          <input type="username" class="form-control" id="exampleFormControlInput1" placeholder="username">
@@ -19,7 +19,10 @@
          <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Repeat Password">
       </div>
     <div>
-        <button type="button" class="btn btn-outline-info">Create Account</button>
+        <router-link to="/Login"><button type="button" class="btn btn-outline-info">Create Account</button></router-link>
+        <!-- <button type="button" class="btn btn-outline-info" >Create Account</button> -->
     </div>
   </div>
+    
+   
 </template>
